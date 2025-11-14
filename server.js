@@ -1,3 +1,6 @@
+/* git add .
+git commit -m "Beskrivelse af ændringer" */
+
 const express = require('express');
 const app = express();
 const PORT = 3000;
@@ -24,10 +27,10 @@ app.get('/index', (req, res) => {
   res.render('index', data);
 });
 
-
 app.get('/logind', (req, res) => {
   res.render('logind');
 });
+
 app.get('/opret-profil', (req, res) => {
   res.render('opret-profil');
 });
