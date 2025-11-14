@@ -1,5 +1,7 @@
 /* git add 
-git commit -m "Beskrivelse af ændringer" */
+git commit -m "Beskrivelse af ændringer" 
+git push
+*/
 
 const express = require('express');
 const app = express();
