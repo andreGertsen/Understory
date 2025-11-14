@@ -3,6 +3,11 @@ body{
     font-family: bahnschrift;
     background-color: #F1F97E;
 }
+h2{
+    font-size: 200%;
+    padding-left: 1%; padding-right: 1%; padding-bottom: 3%;
+    color: #0B3318;
+}
 #topNavBar_ID{
     background-color: #0B3318;
     align-items: center;
@@ -27,10 +32,12 @@ body{
 }
 #logIndContainer_ID{
     /* display: inline-block;*/
-    width: 15%;
+    width: 17.5%;
     background-color: #0B3318;
     border-radius: 10px;
-    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
     margin: 0 auto;
     align-content: center;
 }
@@ -38,10 +45,16 @@ body{
     display: inline-block;
     background-color: transparent;
     color: #F1F97E;
-    border: none;
+    border: 2px solid #F1F97E;
+    font-family: bahnschrift;
+    border-radius: 5px;
+    width: 100%;
+    
 }
 #logIndContainer_ID button:hover{
-    font-weight: bold;
+    background-color: #F1F97E;
+    color: #0B3318;
+    font-family: bahnschrift;
     cursor: pointer;
 }
 #logIndContainer_ID{
@@ -51,6 +64,7 @@ body{
 #logIndContainer_ID h3{
     color: #F1F97E;
     text-align: center;
+    font-size: 175%;
 }
 #logIndContainer_ID span{
     color: #F1F97E;
@@ -58,5 +72,9 @@ body{
 #logIndContainer_ID input{
     outline: none;
     border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #F1F97E;
+    color: #F1F97E;
     font-family: bahnschrift;
+    width: 98%;
 }

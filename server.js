@@ -26,7 +26,7 @@ app.get('/index', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.ejs'));
   
   // Render index.ejs and pass data to it
-  res.render('index', data);
+  res.render('index');
 });
 
 app.get('/logind', (req, res) => {
