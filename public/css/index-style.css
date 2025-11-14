@@ -1,0 +1,78 @@
+body{
+    background-color: #022C12;
+}
+#topNavBar_ID{
+    background-color: #0B3318;
+    align-items: center;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.7%;
+}
+#topNavBar_ID h1{
+    color: #F1F97E;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+}
+#topNavBar_ID button{
+    color: white;
+    display: inline-block;
+    vertical-align: super;
+    background-color: transparent;
+    border: none;
+    font-family: Bahnschrift;
+}
+#logIndContainer_ID{
+    display: inline-block;
+    background-color: #0B3318;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+#logIndContainer_ID button{
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#backgroundVideo_ID{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+}
+#videoTekstContainer_ID{
+    width: 70%;
+}
+#videoTekstContainer_ID h2{
+    color: #F1F97E;
+    font-family: bahnschrift;
+    font-size: 465%;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#videoTekstContainer_ID span{
+    color: #F1F97E;
+    font-family: bahnschrift;
+    font-size: 140%;
+}
+#videoTekstContainer_ID a{
+    font-family: bahnschrift;
+    color: #F1F97E;
+    background-color: #0B3318;
+    border: 2px solid #F1F97E;
+    outline: none;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 100%;
+    margin-top: 3%;
+    text-decoration: none;
+    display: inline-block;
+}
+#videoTekstContainer_ID a:hover{
+    background-color: #F1F97E;
+    color: #0B3318;
+    cursor: pointer;
+    outline: none;
+}

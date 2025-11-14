@@ -1,0 +1,62 @@
+body{
+    background-color: #F5F6F7;
+    font-family: bahnschrift;
+    background-color: #F1F97E;
+}
+#topNavBar_ID{
+    background-color: #0B3318;
+    align-items: center;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.7%;
+}
+#topNavBar_ID h1{
+    color: #0B3318;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+}
+#topNavBar_ID button{
+    color: white;
+    display: inline-block;
+    vertical-align: super;
+    background-color: transparent;
+    border: none;
+    font-family: Bahnschrift;
+}
+#logIndContainer_ID{
+    /* display: inline-block;*/
+    width: 15%;
+    background-color: #0B3318;
+    border-radius: 10px;
+    padding: 0.5%;
+    margin: 0 auto;
+    align-content: center;
+}
+#logIndContainer_ID button{
+    display: inline-block;
+    background-color: transparent;
+    color: #F1F97E;
+    border: none;
+}
+#logIndContainer_ID button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+#logIndContainer_ID{
+    background-color: #0B3318;
+    color: #022C12;
+}
+#logIndContainer_ID h3{
+    color: #F1F97E;
+    text-align: center;
+}
+#logIndContainer_ID span{
+    color: #F1F97E;
+}
+#logIndContainer_ID input{
+    outline: none;
+    border: none;
+    font-family: bahnschrift;
+}
