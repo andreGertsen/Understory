@@ -1,4 +1,4 @@
-/* git add .
+/* git add 
 git commit -m "Beskrivelse af ændringer" */
 
 const express = require('express');
